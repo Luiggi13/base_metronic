@@ -1,14 +1,14 @@
 {{-- Aside --}}
 
 @php
-    $kt_logo_image = 'logo-light.png';
+    $kt_logo_image = 'nixus-light.png';
 @endphp
 
 @if(config('layout.brand.self.theme') === 'light')
     @php$kt_logo_image = 'logo-dark.png' @endphp
         <blade
             elseif|%20(config(%26%2339%3Blayout.brand.self.theme%26%2339%3B)%20%3D%3D%3D%20%26%2339%3Bdark%26%2339%3B) />
-        @php$kt_logo_image = 'logo-light.png' @endphp
+        @php$kt_logo_image = 'nixus-light.png' @endphp
         @endif
 
         <div class="aside aside-left {{ Metronic::printClasses('aside', false) }} d-flex flex-column flex-row-auto"
