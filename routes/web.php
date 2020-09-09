@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PagesController@index');
 
 
 // Demo routes
@@ -33,4 +32,6 @@ Route::get('/quick-search', 'PagesController@quickSearch')->name('quick-search')
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'PagesController@index')->name('home');
