@@ -234,7 +234,7 @@ return [
 
         // Quick Panel
         'quick-panel' => [
-            'display' => true,
+            'display' => false,
             'offcanvas' => [
                 'direction' => 'right'
             ]
@@ -242,7 +242,7 @@ return [
 
         // Chat
         'chat' => [
-            'display' => true,
+            'display' => false,
         ],
 
         // Page Toolbar
@@ -252,7 +252,7 @@ return [
 
         // Scrolltop
         'scrolltop' => [
-            'display' => false
+            'display' => true
         ]
     ],
 
