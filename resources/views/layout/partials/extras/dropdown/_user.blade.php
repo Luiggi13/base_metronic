@@ -1,3 +1,8 @@
+
+@php
+    $username = Auth::user()->name;
+    $username[0];
+@endphp
 @if (config('layout', 'extras/user/dropdown/style') == 'light')
     {{-- Header --}}
     <div class="d-flex align-items-center p-8 rounded-top">
@@ -17,7 +22,7 @@
         <div class="d-flex align-items-center mr-2">
             {{-- Symbol --}}
             <div class="symbol bg-white-o-15 mr-3">
-                <span class="symbol-label text-success font-weight-bold font-size-h4">S</span>
+                <span class="symbol-label text-success font-weight-bold font-size-h4"><?php echo $username[0]?></span>
             </div>
 
             {{-- Text --}}

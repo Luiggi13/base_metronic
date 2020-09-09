@@ -1,3 +1,9 @@
+
+@php
+    $username = Auth::user()->name;
+    $username[0];
+@endphp
+
 {{-- Topbar --}}
 <div class="topbar">
 
@@ -131,7 +137,7 @@
                     <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
                     <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{ Auth::user()->name }}</span>
                     <span class="symbol symbol-35 symbol-light-success">
-                        <span class="symbol-label font-size-h5 font-weight-bold">S</span>
+                        <span class="symbol-label font-size-h5 font-weight-bold"><?php echo $username[0]?></span>
                     </span>
                 </div>
             </div>
@@ -143,7 +149,7 @@
                         <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
                         <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{ Auth::user()->name }}</span>
                         <span class="symbol symbol-35 symbol-light-success">
-                            <span class="symbol-label font-size-h5 font-weight-bold">S</span>
+                            <span class="symbol-label font-size-h5 font-weight-bold"><?php echo $username[0]?></span>
                         </span>
                     </div>
                 </div>
