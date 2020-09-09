@@ -33,22 +33,7 @@
             </div>
 
             {{-- Aside menu --}}
-            <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
-                <div class="header-logo mt-3">
-                <a href="{{ url('/') }}">
-                    <img alt="{{ config('app.name') }}"
-                        src="{{ asset('media/logos/'.$kt_logo_image) }}" />
-                </a>
-                </div>
-                    <a class="dropdown-item mt-3 mb-3" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();" style="padding: 9px 25px;">
-                        <i class="fas fa-sign-out-alt"></i>
-                        <small class="text-muted font-size-sm ml-2">{{ __('Logout') }}</small>
-                    </a>
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                    @csrf
-                </form>
-            </div>
+
             @if(config('layout.aside.self.display') === false)
                 <div class="header-logo">
                     <a href="{{ url('/') }}">
