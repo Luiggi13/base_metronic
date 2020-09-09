@@ -20,7 +20,7 @@
                 <div class="brand-logo">
                     <a href="{{ url('/') }}">
                         <img alt="{{ config('app.name') }}"
-                            src="{{ asset('media/logos/'.$kt_logo_image) }}" />
+                            src="{{ asset('nixus/media/logos/'.$kt_logo_image) }}" />
                     </a>
                 </div>
 
@@ -38,7 +38,7 @@
                 <div class="header-logo">
                     <a href="{{ url('/') }}">
                         <img alt="{{ config('app.name') }}"
-                            src="{{ asset('media/logos/'.$kt_logo_image) }}" />
+                            src="{{ asset('nixus/media/logos/'.$kt_logo_image) }}" />
                     </a>
                 </div>
             @endif
