@@ -40,14 +40,14 @@
 								<div class="pb-5 pb-lg-15">
 									<h3 class="font-weight-bolder text-dark font-size-h2 font-size-h1-lg">Iniciar sesión</h3>
 									<div class="text-muted font-weight-bold font-size-h4">No tienes una cuenta?
-									<a href="custom/pages/login/login-3/signup.html" class="text-primary font-weight-bolder">Regístrate</a></div>
+									<a href="{{ route('register') }}" class="text-primary font-weight-bolder">{{ __('Register') }}</a></div>
 								</div>
 								<!--begin::Title-->
 								<!--begin::Form group-->
 								<div class="form-group">
 									<label for="email" class="font-size-h6 font-weight-bolder text-dark">{{ __('E-Mail Address') }}</label>
 									<input class="form-control h-auto py-7 px-6 rounded-lg border-0 @error('email') is-invalid @enderror" id="email" type="email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus />
-                                
+
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
