@@ -1,40 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" {{ Metronic::printAttrs('html') }} {{ Metronic::printClasses('html') }}>
-    <head>
-        <meta charset="utf-8"/>
+@extends('layouts.app')
 
-        {{-- Title Section --}}
-        <title>{{ config('app.name') }} | @yield('title', $page_title ?? '')</title>
-
-        {{-- Meta Data --}}
-        <meta name="description" content="@yield('page_description', $page_description ?? '')"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-
-        {{-- Favicon --}}
-        <link rel="shortcut icon" href="{{ asset('media/logos/favicon.ico') }}" />
-
-        {{-- Fonts --}}
-        {{ Metronic::getGoogleFontsInclude() }}
-
-        {{-- Global Theme Styles (used by all pages) --}}
-        @foreach(config('layout.resources.css') as $style)
-            <link href="{{ config('layout.self.rtl') ? asset(Metronic::rtlCssPath($style)) : asset($style) }}" rel="stylesheet" type="text/css"/>
-        @endforeach
-
-        {{-- Layout Themes (used by all pages) --}}
-        @foreach (Metronic::initThemes() as $theme)
-            <link href="{{ config('layout.self.rtl') ? asset(Metronic::rtlCssPath($theme)) : asset($theme) }}" rel="stylesheet" type="text/css"/>
-        @endforeach
-
-        {{-- Includable CSS --}}
+@section('content')
   <link href="{{ asset('css/pages/login/login-3.css') }}" rel="stylesheet">
-
-        @yield('styles')
-    </head>
-	<!--end::Head-->
-	<!--begin::Body-->
-	<body {{ Metronic::printAttrs('body') }} {{ Metronic::printClasses('body') }}>
-		<!--begin::Main-->
+<!--begin::Main-->
 		<div class="d-flex flex-column flex-root">
 			<!--begin::Login-->
 			<div class="login login-3 wizard d-flex flex-column flex-lg-row flex-column-fluid">
@@ -72,7 +40,7 @@
 								<div class="pb-5 pb-lg-15">
 									<h3 class="font-weight-bolder text-dark font-size-h2 font-size-h1-lg">Iniciar sesión</h3>
 									<div class="text-muted font-weight-bold font-size-h4">No tienes una cuenta?
-									<a href="{{ route('register') }}" class="text-primary font-weight-bolder">{{ __('Register') }}</a></div>
+									<a href="custom/pages/login/login-3/signup.html" class="text-primary font-weight-bolder">Regístrate</a></div>
 								</div>
 								<!--begin::Title-->
 								<!--begin::Form group-->
@@ -129,20 +97,4 @@
 			<!--end::Login-->
 		</div>
 		<!--end::Main-->
-		<script>var HOST_URL = "{{ route('quick-search') }}";</script>
-
-        {{-- Global Config (global config for global JS scripts) --}}
-        <script>
-            var KTAppSettings = {!! json_encode(config('layout.js'), JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES) !!};
-        </script>
-
-        {{-- Global Theme JS Bundle (used by all pages)  --}}
-        @foreach(config('layout.resources.js') as $script)
-            <script src="{{ asset($script) }}" type="text/javascript"></script>
-        @endforeach
-
-        {{-- Includable JS --}}
-        @yield('scripts')
-	</body>
-	<!--end::Body-->
-</html>
+@endsection

@@ -16,24 +16,24 @@ const rimraf = require('rimraf');
  */
 
 // Default
-import '~bootstrap/scss/bootstrap';
 mix.js('resources/js/app.js', 'public/js').scripts('resources/js/config.js', 'public/js/config.js').sass('resources/sass/app.scss', 'public/css');
 
 // Global jquery
 // mix.autoload({
-// 'jquery': ['$', 'jQuery'],
-// Popper: ['popper.js', 'default'],
-// });
+    // 'jquery': ['$', 'jQuery'],
+    // Popper: ['popper.js', 'default'],
+    // });
 
-// 3rd party plugins css/js
-mix.sass('resources/plugins/plugins.scss', 'public/plugins/global/plugins.bundle.css').then(() => {
-    // remove unused preprocessed fonts folder
-    rimraf(path.resolve('public/fonts'), () => {});
-    rimraf(path.resolve('public/images'), () => {});
-}).sourceMaps(!mix.inProduction())
+    // 3rd party plugins css/js
+    mix.sass('resources/plugins/plugins.scss', 'public/plugins/global/plugins.bundle.css').then(() => {
+        // remove unused preprocessed fonts folder
+        rimraf(path.resolve('public/fonts'), () => {});
+        rimraf(path.resolve('public/images'), () => {});
+    }).sourceMaps(!mix.inProduction())
     // .setResourceRoot('./')
     .options({processCssUrls: false}).js(['resources/plugins/plugins.js'], 'public/plugins/global/plugins.bundle.js');
 
+    // import '~bootstrap/scss/bootstrap';
 // Metronic css/js
 mix.sass('resources/metronic/sass/style.scss', 'public/css/style.bundle.css', {
     sassOptions: {includePaths: ['node_modules']},
