@@ -7,7 +7,7 @@
         </div>
 
         {{-- Text --}}
-        <div class="text-dark m-0 flex-grow-1 mr-3 font-size-h5">Sean Stone</div>
+        <div class="text-dark m-0 flex-grow-1 mr-3 font-size-h5">{{ Auth::user()->name }}</div>
         <span class="label label-light-success label-lg font-weight-bold label-inline">3 messages</span>
     </div>
     <div class="separator separator-solid"></div>
@@ -21,7 +21,7 @@
             </div>
 
             {{-- Text --}}
-            <div class="text-white m-0 flex-grow-1 mr-3 font-size-h5">Sean Stone</div>
+            <div class="text-white m-0 flex-grow-1 mr-3 font-size-h5">{{ Auth::user()->name }}</div>
         </div>
         <span class="label label-success label-lg font-weight-bold label-inline">3 messages</span>
     </div>
@@ -101,7 +101,11 @@
     {{-- Footer --}}
     <div class="navi-separator mt-3"></div>
     <div class="navi-footer  px-8 py-5">
-        <a href="#" target="_blank" class="btn btn-light-primary font-weight-bold">Sign Out</a>
+        <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();" target="_blank" class="btn btn-light-primary font-weight-bold">Sign Out</a>
         <a href="#" target="_blank" class="btn btn-clean font-weight-bold">Upgrade Plan</a>
     </div>
+    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
 </div>

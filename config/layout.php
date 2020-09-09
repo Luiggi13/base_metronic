@@ -76,7 +76,7 @@ return [
     // Header
     'header' => [
         'self' => [
-            'display' => true,
+            'display' => false,
             'width' => 'fluid', // fixed, fluid
             'theme' => 'light', // light, dark
             'fixed' => [
@@ -185,7 +185,7 @@ return [
 
         // Notifications
         'notifications' => [
-            'display' => true,
+            'display' => false,
             'layout' => 'dropdown', // offcanvas, dropdown
             'dropdown' => [
                 'style' => 'dark' // light|dark
@@ -197,7 +197,7 @@ return [
 
         // Quick Actions
         'quick-actions' => [
-            'display' => true,
+            'display' => false,
             'layout' => 'dropdown', // offcanvas, dropdown
             'dropdown' => [
                 'style' => 'dark' // light|dark
@@ -210,7 +210,7 @@ return [
         // User
         'user' => [
             'display' => true,
-            'layout' => 'offcanvas', // offcanvas, dropdown
+            'layout' => 'dropdown', // offcanvas, dropdown
             'dropdown' => [
                 'style' => 'dark' // light|dark
             ],
@@ -226,7 +226,7 @@ return [
 
         // Cart
         'cart' => [
-            'display' => true,
+            'display' => false,
             'dropdown' => [
                 'style' => 'dark' // light|dark
             ]
@@ -247,12 +247,12 @@ return [
 
         // Page Toolbar
         'toolbar' => [
-            'display' => true
+            'display' => false
         ],
 
         // Scrolltop
         'scrolltop' => [
-            'display' => true
+            'display' => false
         ]
     ],
 

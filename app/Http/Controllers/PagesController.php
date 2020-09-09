@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PagesController extends Controller 
+class PagesController extends Controller
 {
     public function __construct()
     {
@@ -12,8 +12,8 @@ class PagesController extends Controller
     }
     public function index()
     {
-        $page_title = 'Dashboard';
-        $page_description = 'Some description for the page';
+        $page_title = 'Página inicial';
+        $page_description = 'Descripción de la página inicio o dashboard';
 
         return view('pages.dashboard', compact('page_title', 'page_description'));
     }

@@ -43,13 +43,7 @@ License: You must have a valid license purchased only from themeforest(the above
     </head>
 
     <body {{ Metronic::printAttrs('body') }} {{ Metronic::printClasses('body') }}>
-<div style="color: white;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 999;">
-{{ __('You are logged in!') }} - {{ Auth::user()->name }}
-</div>
+
         @if (config('layout.page-loader.type') != '')
             @include('layout.partials._page-loader')
         @endif
