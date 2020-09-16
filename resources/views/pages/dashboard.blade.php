@@ -48,7 +48,7 @@
     <div class="col-md-4 col-lg-4">
 
 
-        <div class="card card-custom bg-danger">
+        <div class="card card-custom bg-success">
             <div class="card-header border-0">
                 <div class="card-title">
                     <h3 class="card-label text-white">
@@ -70,7 +70,7 @@
     <div class="col-md-4 col-lg-4">
 
 
-        <div class="card card-custom bg-success">
+        <div class="card card-custom bg-danger bg-danger h-100">
             <div class="card-header border-0">
                 <div class="card-title">
                     <h3 class="card-label text-white">
@@ -114,7 +114,7 @@
  <div class="col-md-4 col-lg-4">
 
 
-        <div class="card card-custom bg-success">
+        <div class="card card-custom bg-primary h-100">
             <div class="card-header border-0">
                 <div class="card-title">
                     <h3 class="card-label text-white">

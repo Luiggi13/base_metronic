@@ -129,16 +129,31 @@ p.alarmas-maquina {
 color:#1BC5BD !important
 }
 .fa.text-red-imp {
-color:#df0000 !important
+color:#df0000 !important;
+top:15px;
 }
 .text-black {
 color:#000 !important
 }
 
 hr {
+position: relative;
 height: 0px;
 background-color: rgba(255,255,255,.7);
 width: 100%;
+}
+hr:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 10px rgba(255,255,255,.7);
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
 }
 ul.mensajes{
 list-style-type: none;
@@ -152,6 +167,16 @@ ul.mensajes li{
 ul.mensajes li a {
     text-decoration: none;
     color: #3F4254;
+    line-height: 2rem;
+}
+.h-100{}
+.bg-primary ul.mensajes li a span,
+.bg-success ul.mensajes li a span,
+.bg-danger ul.mensajes li a span{
+    padding:5px;
+    margin-right:3px;
+    background-color: #fff;
+    border-radius: 10px;
 }
 ul.mensajes li span{
     font-weight:bold
