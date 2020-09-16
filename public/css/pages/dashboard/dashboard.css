@@ -164,9 +164,9 @@ position:absolute;font-size:15px;
 
     color: rgba(255, 255, 255, 1) !important;
 }
-
+.header-fixed.subheader-fixed.subheader-enabled .wrapper,
 #kt_wrapper {
-    padding-top:30!important;
+    /* padding-top:30px!important; */
 }
 
 

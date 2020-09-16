@@ -7,7 +7,8 @@
     @include('layout.base._header-mobile')
 
     <div class="d-flex flex-column flex-root">
-        <div class="d-flex flex-row flex-column-fluid page">
+        {{--  <div class="d-flex flex-row flex-column-fluid page">  --}}
+        <div class="d-flex page">
 
             @if(config('layout.aside.self.display'))
                 @include('layout.base._aside')
