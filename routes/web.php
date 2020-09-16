@@ -35,3 +35,4 @@ Auth::routes();
 // Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'PagesController@index')->name('home');
+Route::get('/mensajes', 'MensajesController@index')->name('mensajes');
