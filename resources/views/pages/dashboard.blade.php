@@ -85,16 +85,22 @@
                 <div class="card-body">
                     <ul class="mensajes">
                     <li>
+                    <a href="#">
                         <span>Parada no justificada</span> en:  máquina nombre
                         <i class="fa fa-eye text-white"></i>
+                    </a>
                     </li>
                     <li>
-                        <span>Parada no justificada</span> en:  máquina nombre de la máquina
-                        <i class="fa fa-eye text-white"></i>
+                        <a href="#">
+                            <span>Parada no justificada</span> en:  máquina nombre de la máquina
+                            <i class="fa fa-eye text-white"></i>
+                        </a>
                     </li>
                     <li>
-                        <span>Parada no justificada</span> en:  máquina nombre de la máquina
-                        <i class="fa fa-eye text-white"></i>
+                        <a href="#">
+                            <span>Parada no justificada</span> en:  máquina nombre de la máquina
+                            <i class="fa fa-eye text-white"></i>
+                        </a>
                     </li>
                     </ul>
                 </div>
@@ -123,21 +129,27 @@
                 <div class="card-body">
                     <ul class="mensajes">
                     <li>
-                        <span>Información</span> en:  máquina nombre
-                        <i class="fa fa-eye text-white"></i>
+                        <a href="#">
+                            <span>Información</span> en:  máquina nombre
+                            <i class="fa fa-eye text-white"></i>
+                        </a>
                     </li>
                     <li>
-                        <span>Información</span> en:  máquina nombre de la máquina
-                        <i class="fa fa-eye text-white"></i>
+                        <a href="#">
+                            <span>Información</span> en:  máquina nombre de la máquina
+                            <i class="fa fa-eye text-white"></i>
+                        </a>
                     </li>
                     <li>
-                        <span>Información</span> en:  máquina nombre de la máquina
-                        <i class="fa fa-eye text-white"></i>
+                        <a href="#">
+                            <span>Información</span> en:  máquina nombre de la máquina
+                            <i class="fa fa-eye text-white"></i>
+                        </a>
                     </li>
                     </ul>
                 </div>
 
-            <i class="fa fa-exclamation-triangle text-white"></i>
+            <i class="fa fa-info text-white"></i>
         </div>
 
 
