@@ -19,7 +19,7 @@
                             <div class="page-title-icon"><i class="fa fa-comment text-success"></i></div>
                             <div>
 
-Auditoría mensajes de la máquina
+                                Auditoría mensajes de la máquina
 
                                 {{--  <div class="page-title-subheading">
 Auditoría mensajes de máquina
@@ -50,6 +50,18 @@ Auditoría mensajes de máquina
 <div class="row">
     <div class="col-lg-9">
         <div class="row align-items-center">
+
+            <div class="col-md-4 my-2 my-md-0">
+                <div class="d-flex align-items-center">
+                    <label class="mr-3 mb-0 d-none d-md-block">Show:</label>
+                    <select class="form-control" id="kt_datatable_search_type">
+                        <option value="">All</option>
+                        <option value="1">10</option>
+                        <option value="2">20</option>
+                        <option value="3">30</option>
+                    </select>
+                </div>
+            </div>
             <div class="col-md-4 my-2 my-md-0">
                 <div class="input-icon">
                     <input type="text" class="form-control" placeholder="Search..." id="kt_datatable_search_query" />
@@ -60,7 +72,7 @@ Auditoría mensajes de máquina
             </div>
             <div class="col-md-4 my-2 my-md-0">
                 <div class="d-flex align-items-center">
-                    <a href="#" class="btn btn-light-primary px-6 font-weight-bold">Search</a>
+                    <a href="#" class="btn btn-primary px-6 font-weight-bold">Search</a>
                 </div>
             </div>
         </div>
