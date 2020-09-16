@@ -33,6 +33,10 @@
     width: 60px;
     height: 60px;
 }
+.fa-cogs{
+
+    font-size: 25px;
+}
 
 .fa-comment-alt,
 .fa-comment,
@@ -124,6 +128,9 @@ p.alarmas-maquina {
 .text-green {
 color:#1BC5BD !important
 }
+.fa.text-red-imp {
+color:#df0000 !important
+}
 .text-black {
 color:#000 !important
 }
@@ -160,4 +167,9 @@ position:absolute;font-size:15px;
 
 #kt_wrapper {
     padding-top:30!important;
+}
+
+
+.fl-r {
+    float:right!important;
 }
