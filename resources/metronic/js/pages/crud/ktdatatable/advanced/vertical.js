@@ -11,9 +11,10 @@ var KTDefaultDatatableDemo = function () {
 			data: {
 				type: 'remote',
 				source: {
-					read: {
-						url: HOST_URL + '/api/datatables/demos/default.php'
-					}
+                    read: {
+                        method: 'GET',
+                        url: 'https://5f63180d363f0000162d81c7.mockapi.io/api/v1/tables',
+                    },
 				},
 				pageSize: 20,
 				serverPaging: true,
@@ -52,9 +53,9 @@ var KTDefaultDatatableDemo = function () {
 				}, {
 					field: 'entry',
 					title: 'Entrada',
-					template: function(row) {
-						return row.Country + ' ' + row.ShipCountry;
-					},
+					// template: function(row) {
+					// 	return row.Country + ' ' + row.ShipCountry;
+					// },
 				}, {
 					field: 'valueMachine',
 					width: 150,
