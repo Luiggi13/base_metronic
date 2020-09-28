@@ -278,6 +278,9 @@
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#hero3 {
+    padding: 250px 0;
+}
 #hero,#hero2,#hero3, #hero-contact {
   width: 100%;
   height: 50vh;
@@ -316,7 +319,7 @@
   top: 0;
   width: 130%;
   height: 95%;
-  background-image:url("../img/locations/batman.jpg");
+  background-image:url("../img/batman.jpg");
   background-position: center;
   background-repeat:no-repeat;
   z-index: 0;
@@ -389,15 +392,20 @@
   left: 0;
   right: 0;
 }
-#hero3 .carousel-container-custom h2,
+#hero3  h2,
 #hero-contact .carousel-container-custom h2
 {
-  width: 68%;
+    z-index: 999;
+position: relative;
+  width: 80%;
 margin-top: 40px;
 margin-bottom: 0;
 }
-#hero3 .carousel-container-custom h4
+#hero3  h4
 {
+    z-index: 999;
+position: relative;
+width: 84%;
   color: white;
 font-size: 19px;
 font-weight: lighter;
@@ -1246,22 +1254,23 @@ text-align: left;
 }
 span.imdb-tag {
   color:#febe42;
-  font-weight:400;
+  font-weight:700;
 }
 p.synopsis{
   margin-left:10px;
   color:#7c8bae;
-  font-size: .875rem;
+  font-size: 1.3rem;
   line-height: 1.5rem;
 }
 /*--------------------------------------------------------------
 # film locations and maps
 --------------------------------------------------------------*/
 .container-map-item{
-  margin-bottom:30px;
+  margin-bottom:0px;
 }
 .container-map-item h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight:700;
 }
 .item-film #map,
 .item-film #map2,
@@ -1269,10 +1278,10 @@ p.synopsis{
 {
   border-radius:0;
 }
-.map-item {
+[class*="col-"].map-item {
   padding-right:0;
 }
-.shoot-film {
+[class*="col-"].shoot-film {
   height:400px;
   padding-left:0;
   overflow: hidden;
@@ -1552,14 +1561,14 @@ p.synopsis{
     width:100%;
     margin-bottom:15px;
   }
-  .map-item {
+  [class*="col-"].map-item {
     margin-bottom:10px;
   }
-  .map-item,.shoot-film {
+  [class*="col-"].map-item,[class*="col-"].shoot-film {
     padding:0 15px;
     height: initial;
   }
-  .shoot-film img{
+  [class*="col-"].shoot-film img{
     width: 100%;
   }
   .pricing .box {
@@ -2915,7 +2924,8 @@ text-align: center;
 h3.home-contributors,
 h3.home-trending-locations
 {
-  margin-bottom:30px;
+  margin-bottom:0px;
+  font-size: 2rem;
 }
 
 
@@ -4370,4 +4380,9 @@ z-index: 1;
 
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
+  }
+
+
+  .np {
+      padding:0!important;
   }

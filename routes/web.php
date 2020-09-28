@@ -39,5 +39,6 @@ Route::get('/login', 'LoginNixusController@index')->name('login');
 Route::get('/loginF', 'LoginFilmapsController@index')->name('loginF');
 Route::get('/registerF', 'RegisterFilmapsController@index')->name('registerF');
 Route::get('/contactF', 'ContactFilmapsController@index')->name('contactF');
+Route::get('/itemF', 'ItemFilmapsController@index')->name('itemF');
 Route::get('/mensajes', 'MensajesController@index')->name('mensajes');
 Route::get('/ciclos', 'TiempoCiclosController@index')->name('ciclos');
