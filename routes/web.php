@@ -36,11 +36,14 @@ Auth::routes();
 
 Route::get('/', 'PagesController@index')->name('home');
 Route::get('/login', 'LoginNixusController@index')->name('login');
+
 Route::get('/loginF', 'LoginFilmapsController@index')->name('loginF');
 Route::get('/registerF', 'RegisterFilmapsController@index')->name('registerF');
 Route::get('/contactF', 'ContactFilmapsController@index')->name('contactF');
 Route::get('/itemF', 'ItemFilmapsController@index')->name('itemF');
 Route::get('/catF', 'CategoryFilmapsController@index')->name('catF');
 Route::get('/homeF', 'PrincipalFilmapsController@index')->name('homeF');
+Route::get('/searchF', 'SearchFilmapsController@index')->name('searchF');
+
 Route::get('/mensajes', 'MensajesController@index')->name('mensajes');
 Route::get('/ciclos', 'TiempoCiclosController@index')->name('ciclos');

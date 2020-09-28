@@ -34,6 +34,7 @@ KTUtil.ready(function() {
     KTLayoutContent.init('kt_content');
     // Init Contact
     KTLayoutContact.init();
+    KTLayoutSearch2.init();
 
     // Init Footer
     KTLayoutFooter.init('kt_footer');

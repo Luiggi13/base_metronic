@@ -3360,7 +3360,17 @@ min-height: 59px;
   transition: 0.4s, box-shadow 0.3s;
   border-radius: 50px;
 }
-.switch span.switch-text {
+.switch input:empty ~ span:before {
+    background-color: initial;
+}
+.switch input:checked ~ span::after {
+    background-color: #ffffff;
+}
+.switch input:checked ~ span:after {
+    margin-left: 29px;
+}
+.switch p.switch-text {
+    margin:9px 0 0 0;
   display: block;
   padding-left: 48px;
   font-size: 16px;
@@ -3374,6 +3384,7 @@ input:checked + .switch-button{
   background-color: rgba(255, 0, 84,1);
 }
 .sort-by {
+    margin-top: 9px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -3556,7 +3567,8 @@ color: black;
 .bookmark-icon.fa-star::before {
   padding: 10px;
   position: absolute;
-  top: -5px;
+  top: -1px;
+  right: -2px;
 }
 .compact-list-layout .job-listing .bookmark-icon {
   top: 50%;
@@ -3702,7 +3714,13 @@ color: black;
 .footer-social-links li a:hover {
   opacity: 1;
 }
-
+.footer-social-links li a i {
+    transition: all 0.15s ease;
+}
+.footer-social-links li a:hover i {
+    color: rgba(255, 0, 84,1);
+    transform: scale(1.5);
+}
 /* buscar mapa */
 /* buscar mapa - right side*/
 .full-page-map-container {

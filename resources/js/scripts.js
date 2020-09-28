@@ -48,4 +48,5 @@ window.KTLayoutSearch = window.KTLayoutSearchOffcanvas = require('../metronic/js
 //Contact Section JS
 
 window.KTLayoutContact = require('../metronic/js/layout/base/contact.js');
+window.KTLayoutSearch2 = require('../metronic/js/layout/base/search.js');
 require('../metronic/js/layout/initialize.js');
