@@ -90,7 +90,7 @@
 	<!--end::HERO-->
 
     	<!--begin::popular now-->
-        <section class="testimonials" data-aos="fade-up">
+        <section class="mb-5 testimonials" data-aos="fade-up">
     <div class="container">
 
       <div class="col-md-12">
@@ -192,7 +192,7 @@
       </div>
 
     </div>
-  </section class="mb-5">
+  </section>
     	<!--end::popular now-->
     	<!--begin::trending destinations-->
          <section class="how-it-works trending-destinations" style="padding-bottom:0">
