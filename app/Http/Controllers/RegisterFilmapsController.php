@@ -8,11 +8,11 @@ class RegisterFilmapsController extends Controller
 {
     public function index()
     {
-        // $page_title = 'Login Page';
+        $page_title = 'Register';
         // $page_description = 'Login description for the page';
 
         // return view('pages.login', compact('page_title', 'page_description'));
-        return view('pages.registerfilmaps');
+        return view('pages.registerfilmaps',compact('page_title'));
     }
 
     /**

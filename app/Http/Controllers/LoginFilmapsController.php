@@ -8,11 +8,11 @@ class LoginFilmapsController extends Controller
 {
     public function index()
     {
-        // $page_title = 'Login Page';
+        $page_title = 'Login';
         // $page_description = 'Login description for the page';
 
         // return view('pages.login', compact('page_title', 'page_description'));
-        return view('pages.loginfilmaps');
+        return view('pages.loginfilmaps',compact('page_title'));
     }
 
     /**
