@@ -42,4 +42,10 @@ window.KTLayoutQuickUser = require('../metronic/js/layout/extended/quick-user.js
 window.KTLayoutScrolltop = require('../metronic/js/layout/extended/scrolltop.js');
 window.KTLayoutSearch = window.KTLayoutSearchOffcanvas = require('../metronic/js/layout/extended/search.js');
 
+
+// Metronic Filmaps scripts
+
+//Contact Section JS
+
+window.KTLayoutContact = require('../metronic/js/layout/base/contact.js');
 require('../metronic/js/layout/initialize.js');

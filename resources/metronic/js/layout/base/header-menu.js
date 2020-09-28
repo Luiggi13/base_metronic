@@ -36,7 +36,9 @@ var KTLayoutHeaderMenu = function() {
             if (KTUtil.isBreakpointDown('lg')) { // Tablet and mobile mode
                 _offcanvasObject.hide(); // Hide offcanvas after general link click
             }
-        });
+		});
+		
+		  
 	}
 
     // Public methods
@@ -49,8 +51,10 @@ var KTLayoutHeaderMenu = function() {
                 return;
             }
 
-            // Initialize menu
-            _init();
+			// Initialize menu
+			
+			_init();
+			
 		},
 
 		getMenuElement: function() {
