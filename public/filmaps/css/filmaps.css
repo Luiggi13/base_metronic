@@ -3184,6 +3184,11 @@ a.forgot-password {
 }
 input#checkbox1 {
   cursor:pointer;
+  position: absolute;
+margin-top: 0;
+margin-left: -1.25rem;
+  z-index:0;
+  opacity:1;
 }
 
 .login-form .group .widget-login-info {
