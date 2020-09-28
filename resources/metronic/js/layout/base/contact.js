@@ -67,13 +67,13 @@ var KTLayoutContact = function() {
                 $('#header').addClass('header-scrolled');
                 console.log('contacto');
             }else{
-            //   $(window).scroll(function() {
-            //     if ($(this).scrollTop() > 100) {
-            //       $('#header').addClass('header-scrolled');
-            //     } else {
-            //       $('#header').removeClass('header-scrolled');
-            //     }
-            //   });
+              $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                  $('#header').addClass('header-scrolled');
+                } else {
+                  $('#header').removeClass('header-scrolled');
+                }
+              });
 
               if ($(window).scrollTop() > 100) {
                 $('#header').addClass('header-scrolled');
