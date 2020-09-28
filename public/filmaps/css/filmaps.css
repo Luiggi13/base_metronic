@@ -281,6 +281,12 @@
 #hero3 {
     padding: 250px 0;
 }
+#hero2 {
+    padding: 200px 0;
+}
+#hero2 h2 {
+    margin-top: 30px;
+}
 #hero,#hero2,#hero3, #hero-contact {
   width: 100%;
   height: 50vh;
@@ -307,7 +313,7 @@
   top: 0;
   width: 130%;
   height: 95%;
-  background-image:url("../img/locations/cinema.jpg");
+  background-image:url("../img/cinema.jpg");
   background-position: center;
   background-repeat:no-repeat;
   z-index: 0;
@@ -2924,7 +2930,7 @@ text-align: center;
 h3.home-contributors,
 h3.home-trending-locations
 {
-  margin-bottom:0px;
+    margin-bottom:20px;
   font-size: 2rem;
 }
 
