@@ -139,6 +139,7 @@
                     <div class="job_listings">
                         <div class="job_listings">
                             <article class="job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_type-health-care job-type-health-care job_position_featured featured">
+                            <div class="mywrapper">
                                 <figure class="company-logo">
                                     <img class="company_logo" src="{{ asset('remote/img/logo-1.png') }}" alt="FFFFFF">
                                     <a class="btn" href="#">Apply</a>
@@ -201,6 +202,95 @@
                                     </ul>
                                 </div>
                                 <div class="featured-label">Verified</div>
+                                </div>
+                                <div class="job-details contract">
+     <p>
+  We know that during this time there are concerns around the actuality of
+  hiring needs, we want to assure you that this job is posted for a need that we
+  are eagerly looking to fill. We would love to see your application!
+</p>
+<p>
+  Clevertech is a leading consultancy that is on a mission to build
+  transformational digital solutions for the world’s most innovative
+  organizations. Enterprise companies turn to Clevertech to help them launch
+  innovative digital products that interact with hundreds of millions of
+  customers, transactions, and data points. By partnering with Clevertech these
+  companies are propelling forward and changing their industries, business
+  models, and more.
+</p>
+<p><strong>Basic Requirements:</strong></p>
+<ul>
+  <li>Significant experience with React and Redux</li>
+  <li>Clearly communicate complex concepts verbally in English</li>
+  <li>Strong understanding of the agile software development process</li>
+  <li>Experience consulting with large enterprises</li>
+</ul>
+<p>
+  <strong>Expected timeline:</strong> We move quickly and if you are the right
+  person, we want you here. In the past we have moved from application to hire
+  in a matter of days!
+</p>
+<p><strong>Our Benefits</strong></p>
+<p>
+  We know that people do their best work when they’re taken care of. So we make
+  sure to offer great benefits.
+</p>
+<p>
+  Competitive Vacation Package Annual Financial Allowance for YOUR development
+  Flexible Family Leave Clevertech Gives Back Program Clevertech U (Leadership
+  Program, Habit Building, New Skills Training) Clevertech Swag Strong
+  Clevertech Community
+</p>
+<p><strong>How We Work</strong></p>
+<p>
+  Are you curious about what its like to work at Clevertech? Check out our
+  YouTube channel to hear directly from Clevertech developers.
+</p>
+<p>
+  People join Clevertech to make an impact. To grow themselves. To be surrounded
+  by developers who they can learn from.
+</p>
+<p>
+  Weve found that innovation comes from an exchange of knowledge across all of
+  our teams. To put people on the path for success, we nurture a culture built
+  on trust, collaboration, and personal growth. You will work in small
+  feature-based cross-functional teams and be empowered to take ownership.
+</p>
+<p>
+  We make a point of constantly evolving our experience and skills. We value
+  diverse perspectives and fostering personal growth by challenging everyone to
+  push beyond our comfort level and try something new.
+</p>
+<p>The result? Meaningful work.</p>
+<p><strong>Getting Hired</strong></p>
+<p>
+  We hire people from a variety of backgrounds who are respectful,
+  collaborative, and introspective. Members of the tech team, for example, come
+  from diverse backgrounds having worked as copy editors, graphic designers, and
+  photographers prior to joining Clevertech.
+</p>
+<p>
+  Our hiring process focuses not only on your skills but also on your
+  professional and personal ambitions. We want to get to know you. We put a lot
+  of thought into the interview process in order to get a holistic understanding
+  of you while being mindful of your time. You will solve problems derived from
+  the work we do on a daily basis followed by thoughtful discussions around
+  potential fit. Whatever the outcome, we want you to have a great candidate
+  experience.
+</p>
+<p>
+  Want to learn more about Clevertech and the team? Check out clevertech.careers
+</p>
+<h1 id="location">Location</h1>
+<p>North American, South America, Europe</p>
+<div class="instructions">
+    <h1 class="howdoyouapply">How do you apply?</h1>
+    <div class="markdown">
+        <a class="btn action-apply apply_99125" href="#" target="_new" rel="nofollow">Apply for this position</a>
+    </div>
+</div>
+
+
                             </article>
                         </div>
                     </div>
@@ -210,7 +300,8 @@
                 <div class="entry-content">
                     <div class="job_listings">
                         <div class="job_listings">
-                            <article class="job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_type-health-care job-type-health-care job_position_featured">
+                             <article class="job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_type-health-care job-type-health-care job_position_featured featured">
+                            <div class="mywrapper">
                                 <figure class="company-logo">
                                     <img class="company_logo" src="{{ asset('remote/img/logo-1.png') }}" alt="FFFFFF">
                                     <a class="btn" href="#">Apply</a>
@@ -273,6 +364,95 @@
                                     </ul>
                                 </div>
                                 <div class="featured-label">Verified</div>
+                                </div>
+                                <div class="job-details">
+     <p>
+  We know that during this time there are concerns around the actuality of
+  hiring needs, we want to assure you that this job is posted for a need that we
+  are eagerly looking to fill. We would love to see your application!
+</p>
+<p>
+  Clevertech is a leading consultancy that is on a mission to build
+  transformational digital solutions for the world’s most innovative
+  organizations. Enterprise companies turn to Clevertech to help them launch
+  innovative digital products that interact with hundreds of millions of
+  customers, transactions, and data points. By partnering with Clevertech these
+  companies are propelling forward and changing their industries, business
+  models, and more.
+</p>
+<p><strong>Basic Requirements:</strong></p>
+<ul>
+  <li>Significant experience with React and Redux</li>
+  <li>Clearly communicate complex concepts verbally in English</li>
+  <li>Strong understanding of the agile software development process</li>
+  <li>Experience consulting with large enterprises</li>
+</ul>
+<p>
+  <strong>Expected timeline:</strong> We move quickly and if you are the right
+  person, we want you here. In the past we have moved from application to hire
+  in a matter of days!
+</p>
+<p><strong>Our Benefits</strong></p>
+<p>
+  We know that people do their best work when they’re taken care of. So we make
+  sure to offer great benefits.
+</p>
+<p>
+  Competitive Vacation Package Annual Financial Allowance for YOUR development
+  Flexible Family Leave Clevertech Gives Back Program Clevertech U (Leadership
+  Program, Habit Building, New Skills Training) Clevertech Swag Strong
+  Clevertech Community
+</p>
+<p><strong>How We Work</strong></p>
+<p>
+  Are you curious about what its like to work at Clevertech? Check out our
+  YouTube channel to hear directly from Clevertech developers.
+</p>
+<p>
+  People join Clevertech to make an impact. To grow themselves. To be surrounded
+  by developers who they can learn from.
+</p>
+<p>
+  Weve found that innovation comes from an exchange of knowledge across all of
+  our teams. To put people on the path for success, we nurture a culture built
+  on trust, collaboration, and personal growth. You will work in small
+  feature-based cross-functional teams and be empowered to take ownership.
+</p>
+<p>
+  We make a point of constantly evolving our experience and skills. We value
+  diverse perspectives and fostering personal growth by challenging everyone to
+  push beyond our comfort level and try something new.
+</p>
+<p>The result? Meaningful work.</p>
+<p><strong>Getting Hired</strong></p>
+<p>
+  We hire people from a variety of backgrounds who are respectful,
+  collaborative, and introspective. Members of the tech team, for example, come
+  from diverse backgrounds having worked as copy editors, graphic designers, and
+  photographers prior to joining Clevertech.
+</p>
+<p>
+  Our hiring process focuses not only on your skills but also on your
+  professional and personal ambitions. We want to get to know you. We put a lot
+  of thought into the interview process in order to get a holistic understanding
+  of you while being mindful of your time. You will solve problems derived from
+  the work we do on a daily basis followed by thoughtful discussions around
+  potential fit. Whatever the outcome, we want you to have a great candidate
+  experience.
+</p>
+<p>
+  Want to learn more about Clevertech and the team? Check out clevertech.careers
+</p>
+<h1 id="location">Location</h1>
+<p>North American, South America, Europe</p>
+<div class="instructions">
+    <h1 class="howdoyouapply">How do you apply?</h1>
+    <div class="markdown">
+        <a class="btn action-apply apply_99125" href="#" target="_new" rel="nofollow">Apply for this position</a>
+    </div>
+</div>
+
+
                             </article>
                         </div>
                     </div>
@@ -283,6 +463,7 @@
                     <div class="job_listings">
                         <div class="job_listings">
                             <article class="job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_type-health-care job-type-health-care job_position_featured">
+                            <div class="mywrapper">
                                 <figure class="company-logo">
                                     <img class="company_logo" src="{{ asset('remote/img/logo-1.png') }}" alt="FFFFFF">
                                     <a class="btn" href="#">Apply</a>
@@ -345,6 +526,95 @@
                                     </ul>
                                 </div>
                                 <div class="featured-label not-verified">NOT Verified</div>
+                                </div>
+                                <div class="job-details">
+     <p>
+  We know that during this time there are concerns around the actuality of
+  hiring needs, we want to assure you that this job is posted for a need that we
+  are eagerly looking to fill. We would love to see your application!
+</p>
+<p>
+  Clevertech is a leading consultancy that is on a mission to build
+  transformational digital solutions for the world’s most innovative
+  organizations. Enterprise companies turn to Clevertech to help them launch
+  innovative digital products that interact with hundreds of millions of
+  customers, transactions, and data points. By partnering with Clevertech these
+  companies are propelling forward and changing their industries, business
+  models, and more.
+</p>
+<p><strong>Basic Requirements:</strong></p>
+<ul>
+  <li>Significant experience with React and Redux</li>
+  <li>Clearly communicate complex concepts verbally in English</li>
+  <li>Strong understanding of the agile software development process</li>
+  <li>Experience consulting with large enterprises</li>
+</ul>
+<p>
+  <strong>Expected timeline:</strong> We move quickly and if you are the right
+  person, we want you here. In the past we have moved from application to hire
+  in a matter of days!
+</p>
+<p><strong>Our Benefits</strong></p>
+<p>
+  We know that people do their best work when they’re taken care of. So we make
+  sure to offer great benefits.
+</p>
+<p>
+  Competitive Vacation Package Annual Financial Allowance for YOUR development
+  Flexible Family Leave Clevertech Gives Back Program Clevertech U (Leadership
+  Program, Habit Building, New Skills Training) Clevertech Swag Strong
+  Clevertech Community
+</p>
+<p><strong>How We Work</strong></p>
+<p>
+  Are you curious about what its like to work at Clevertech? Check out our
+  YouTube channel to hear directly from Clevertech developers.
+</p>
+<p>
+  People join Clevertech to make an impact. To grow themselves. To be surrounded
+  by developers who they can learn from.
+</p>
+<p>
+  Weve found that innovation comes from an exchange of knowledge across all of
+  our teams. To put people on the path for success, we nurture a culture built
+  on trust, collaboration, and personal growth. You will work in small
+  feature-based cross-functional teams and be empowered to take ownership.
+</p>
+<p>
+  We make a point of constantly evolving our experience and skills. We value
+  diverse perspectives and fostering personal growth by challenging everyone to
+  push beyond our comfort level and try something new.
+</p>
+<p>The result? Meaningful work.</p>
+<p><strong>Getting Hired</strong></p>
+<p>
+  We hire people from a variety of backgrounds who are respectful,
+  collaborative, and introspective. Members of the tech team, for example, come
+  from diverse backgrounds having worked as copy editors, graphic designers, and
+  photographers prior to joining Clevertech.
+</p>
+<p>
+  Our hiring process focuses not only on your skills but also on your
+  professional and personal ambitions. We want to get to know you. We put a lot
+  of thought into the interview process in order to get a holistic understanding
+  of you while being mindful of your time. You will solve problems derived from
+  the work we do on a daily basis followed by thoughtful discussions around
+  potential fit. Whatever the outcome, we want you to have a great candidate
+  experience.
+</p>
+<p>
+  Want to learn more about Clevertech and the team? Check out clevertech.careers
+</p>
+<h1 id="location">Location</h1>
+<p>North American, South America, Europe</p>
+<div class="instructions">
+    <h1 class="howdoyouapply">How do you apply?</h1>
+    <div class="markdown">
+        <a class="btn action-apply apply_99125" href="#" target="_new" rel="nofollow">Apply for this position</a>
+    </div>
+</div>
+
+
                             </article>
                         </div>
                     </div>
@@ -412,6 +682,8 @@
         @foreach(config('layout.resources.js') as $script)
             <script src="{{ asset($script) }}" type="text/javascript"></script>
         @endforeach
+            <script src="{{ asset('remote/js/remote.js') }}" type="text/javascript"></script>
+            
 
         {{-- Includable JS --}}
         @yield('scripts')

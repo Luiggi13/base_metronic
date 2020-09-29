@@ -772,6 +772,7 @@ html {
   }
 
   a.btn {
+    transition: ease all 0.3s;
     display: inline-block;
     background: #2ace5e;
     border: 1px solid #2ace5e;
@@ -5273,18 +5274,28 @@ html {
   .site-main .entry-content div.job_listings div.job_listings article.featured {
       background:#fff9c9;
   }
-  .site-main .entry-content div.job_listings div.job_listings article {
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
-    margin-bottom: 25px;
-    border-radius: 5px;
-    padding: 30px;
+  .site-main .entry-content div.job_listings div.job_listings article .mywrapper{
+      cursor:pointer;
     position: relative;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     overflow: hidden;
     align-items: flex-start;
+    padding: 30px;
+  }
+  .site-main .entry-content div.job_listings div.job_listings article {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    margin-bottom: 25px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    // padding: 30px;
+    // display: flex;
+    // flex: 1;
+    // flex-wrap: wrap;
+    // align-items: flex-start;
 
     .company-logo {
         width: 100px;
@@ -5292,6 +5303,7 @@ html {
         //   background: #EEE;
     }
     .company-logo a.btn{
+transition: ease all 0.3s;
         display: inline-block;
         width:100%;
     background: #2ace5e;
@@ -5302,6 +5314,9 @@ html {
     border-radius: 5px;
     padding: 10px 18px;
     margin-top:10px;
+    }
+    .company-logo a.btn:hover{
+        transform: scale(1.1);
     }
     .job-title-wrap {
       width: calc(100% - 100px);
@@ -8014,4 +8029,43 @@ footer > .inner ul.legal-links li a {
     color: gold;
     text-align: center;
     display: inline-block;
+}
+
+
+article.job_listing .job-details {
+    background-color: white;
+padding: 30px;
+display: none;
+    width: 100%;
+    margin-top: 30px;
+    p{
+        margin-bottom: .75em;
+        margin-top: .75em;
+        line-height: 1.5;
+        strong {
+            font-weight: bold;
+        }
+    }
+    .instructions {
+        border: 1px solid #ddd;
+border-radius: 5px;
+margin: 14px auto;
+box-shadow: 1px 2px 4px rgba(0,0,0,.03);
+padding: 1em 2em;
+    }
+    h1.howdoyouapply{
+        line-height: 1.5;
+        text-align: center;
+        word-break: break-word;
+white-space: initial;
+font-weight: 800;
+margin: 0 0 20px 0;
+color: #0f1115;
+    }
+    .markdown {
+        text-align:center;
+    }
+    &.expanded {
+        display:block;
+    }
 }
