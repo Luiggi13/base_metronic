@@ -4,3 +4,5 @@ $(function() {
         console.log($(this).find('div.job-details').hasClass('expanded'));
     });
 });
+
+// window.history.pushState('', 'New Page Title', '/logisadsan');

@@ -51,3 +51,4 @@ Route::get('/ciclos', 'TiempoCiclosController@index')->name('ciclos');
 
 
 Route::get('/remoteHome', 'RemoteHomeController@index')->name('remoteHome');
+Route::get('/remoteItem', 'RemoteItemController@index')->name('remoteItem');
