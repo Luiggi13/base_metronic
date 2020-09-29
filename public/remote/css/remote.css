@@ -7201,6 +7201,62 @@ ul.item-details-jos li:last-child {
 @media (max-width: 980px) {
   .jobs-detail-3 .social-media {
     width: 100%;
-    text-align: left;
   }
+}
+.c-footer {
+  background-color: #ecedf2;
+  margin-top: auto;
+}
+.c-footer .container {
+  max-width: 954px;
+  margin: 0 auto;
+}
+.c-footer h2.sr-only {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1px;
+}
+.c-footer .c-footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e6ec;
+  padding-top: 2.85714rem;
+  padding-bottom: 3.85714rem;
+}
+.c-footer .c-footer__bottom p {
+  color: rgba(119, 140, 163, 0.7);
+}
+.c-footer .align-items-center {
+  align-items: center;
+}
+.c-footer .dflex {
+  display: flex;
+}
+.c-footer .c-footer__social a {
+  display: inline-block;
+}
+.c-footer .c-footer__social a:nth-child(2) {
+  margin: 0 20px;
+}
+.c-footer .c-footer__social i {
+  font-size: 1.5rem;
+}
+.c-footer .c-footer__social img {
+  display: block;
+}
+.c-footer a {
+  color: #778ca3;
+  transition: color 0.3s ease;
+}
+.c-footer .c-footer__social__linkedin {
+  margin-top: -4px;
 }

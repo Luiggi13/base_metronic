@@ -168,16 +168,6 @@
                         ><i class="fab fa-twitter"></i>
                         </a>
                     </li>
-                    <li>
-                      <a
-                        class="addthis_button_instagram at300b"
-                        data-original-title="Instagram"
-                        target="_blank"
-                        title="Instagram"
-                        href="#"
-                        ><i class="icon-instagram4"></i
-                      ></a>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -340,25 +330,24 @@
 </div>
 <!--end:: details-->
 <!--begin::footer-->
-<footer>
-
-  <div class="inner white">
-    <p>© 2020 XXXXXXXXXXX. <a class="spain-responsible" href="#"> http://www.example.com/ </a></p>
-    <p>XXXXXXX es una marca registrada de XXXXXXXXX.</p>
-    <ul class="legal-links font-s-m cf">
-      <li><a href="/terms-and-conditions">Términos</a></li>
-      <li><span class="dot big"></span></li>
-      <li><a href="/privacy-policy">Privacidad</a></li>
-      <li><span class="dot big"></span></li>
-      <li>
-        <div class="control drop-down-control btn-icon">
-          <span class="font-s-m">Idioma preferido</span>
+<footer class="c-footer">
+<nav class="container" aria-label="site">
+    <h2 class="sr-only">Site Navigation</h2>
+    <section class="c-footer__bottom">
+        <p>Copyright © 2020 XXXX, Inc. All rights reserved.</p>
+        <div class="c-footer__social dflex align-items-center">
+        <a href="#">
+            <i class="fab fa-facebook-f"></i
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
         </div>
-      </li>
-    </ul>
-  </div>
-
-
+    </section>
+</nav>
 </footer>
 <!--end::footer-->
 
