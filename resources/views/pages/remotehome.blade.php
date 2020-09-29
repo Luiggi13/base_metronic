@@ -142,7 +142,7 @@
                             <div class="mywrapper">
                                 <figure class="company-logo">
                                     <img class="company_logo" src="{{ asset('remote/img/logo-1.png') }}" alt="FFFFFF">
-                                    <a class="btn" href="#">Apply</a>
+                                    <a class="btn open_item" data-url="remoteItem">Apply</a>
                                 </figure>
                                 <div class="job-title-wrap">
                                     <h2 class="entry-title">
@@ -303,8 +303,8 @@
                              <article class="job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_type-health-care job-type-health-care job_position_featured featured">
                             <div class="mywrapper">
                                 <figure class="company-logo">
-                                    <img class="company_logo" src="{{ asset('remote/img/logo-1.png') }}" alt="FFFFFF">
-                                    <a class="btn" href="#">Apply</a>
+                                    <img class="company_logo" src="{{ asset('remote/img/logo-3.png') }}" alt="FFFFFF">
+                                    <a class="btn open_item" data-url="remoteItem">Apply</a>
                                 </figure>
                                 <div class="job-title-wrap">
                                     <h2 class="entry-title">
@@ -465,8 +465,8 @@
                             <article class="job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_type-health-care job-type-health-care job_position_featured">
                             <div class="mywrapper">
                                 <figure class="company-logo">
-                                    <img class="company_logo" src="{{ asset('remote/img/logo-1.png') }}" alt="FFFFFF">
-                                    <a class="btn" href="#">Apply</a>
+                                    <img class="company_logo" src="{{ asset('remote/img/logo-2.png') }}" alt="FFFFFF">
+                                    <a class="btn open_item" data-url="remoteItem">Apply</a>
                                 </figure>
                                 <div class="job-title-wrap">
                                     <h2 class="entry-title">

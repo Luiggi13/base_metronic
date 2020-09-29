@@ -1765,7 +1765,7 @@ body:not(.home) .site-header, body.home:not(.banner-enabled) .site-header {
 
 .banner-caption {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   right: 0;
   text-align: center;
