@@ -47,3 +47,7 @@ Route::get('/searchF', 'SearchFilmapsController@index')->name('searchF');
 
 Route::get('/mensajes', 'MensajesController@index')->name('mensajes');
 Route::get('/ciclos', 'TiempoCiclosController@index')->name('ciclos');
+
+
+
+Route::get('/remoteHome', 'RemoteHomeController@index')->name('remoteHome');

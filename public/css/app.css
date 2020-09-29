@@ -14574,3 +14574,7 @@ input.searcher {
   padding-right: 30px;
   font-size: 1.3rem;
 }
+
+.fusa {
+  display: none;
+}
