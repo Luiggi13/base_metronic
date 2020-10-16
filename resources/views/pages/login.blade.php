@@ -43,8 +43,9 @@
 					<!--begin::Aside Top-->
 					<div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15">
 						<!--begin::Aside header-->
-						<a href="#" class="login-logo text-center pt-lg-25 pb-10">
-							<img src="{{ asset('/media/logos/logo-1.png') }}" class="max-h-70px" alt="" />
+						<a href="#" class="login-logo text-center pt-lg-25 pb-5">
+							{{--  <img src="{{ asset('/media/logos/logo-1.png') }}" class="max-h-70px" alt="" />  --}}
+							<img src="{{ asset('barco/img/broker-mini.png') }}" class="max-h-70px" alt="" />
 						</a>
 						<!--end::Aside header-->
 						<!--begin::Aside Title-->

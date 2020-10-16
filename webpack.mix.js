@@ -16,7 +16,7 @@ const rimraf = require('rimraf');
  */
 
 // Default
-mix.js('resources/js/app.js', 'public/js').scripts('resources/js/config.js', 'public/js/config.js').sass('resources/sass/app.scss', 'public/css').sass('resources/sass/remote.scss', 'public/remote/css');
+mix.js('resources/js/app.js', 'public/js').scripts('resources/js/config.js', 'public/js/config.js').sass('resources/sass/app.scss', 'public/css').sass('resources/sass/remote.scss', 'public/remote/css').sass('resources/sass/barco.scss', 'public/barco/css').sass('resources/metronic/sass/style_barco.scss', 'public/barco/css/barco.bundle.css');
 
 // Global jquery
 // mix.autoload({
