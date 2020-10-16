@@ -52,7 +52,9 @@ Route::get('/ciclos', 'TiempoCiclosController@index')->name('ciclos');
 
 Route::get('/remoteHome', 'RemoteHomeController@index')->name('remoteHome');
 Route::get('/remoteItem', 'RemoteItemController@index')->name('remoteItem');
+
 Route::get('/barcoHome', 'BarcoHomeController@index')->name('barcoHome');
 Route::get('/barcoItem', 'BarcoItemController@index')->name('barcoItem');
 Route::get('/barcoCondiciones', 'BarcoCondicionesController@index')->name('barcoCondiciones');
+Route::get('/barcoContact', 'BarcoContactController@index')->name('barcoContact');
 Route::get('/barcoServicios', 'BarcoServiciosController@index')->name('barcoServicios');
